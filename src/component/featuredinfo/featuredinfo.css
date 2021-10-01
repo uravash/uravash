@@ -1,0 +1,42 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.featureditem{
+    cursor: pointer;
+    flex: 1;
+    margin:0px 20px ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -1px rgb(204, 196, 196);;
+}
+.fraturedtitle{
+    font-style: 20px;
+}
+.reaturedmoneycontainer{
+    margin:10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featuredmoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredmoneyrate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featuredicon{
+    font-style: 14px;
+    margin-left: 5px;
+    color: green;
+}
+.featuredicon.negative{
+    color: red;
+}
+.featuredsub{
+    font-style: 15px;
+    color: gray;
+}
